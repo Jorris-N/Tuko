@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DUT Credit</title>
+    <title>Food Credit</title>
     <!--Styles-->
     <link rel="stylesheet" href="./Styles/navbar.css">
     <link rel="stylesheet" href="./Styles/style.css">
+    <link rel="stylesheet" href="./Styles/body.css">
+    <link rel="stylesheet" href="./Styles/responsive.css">
     <!--javascript function for drop down button for mobile menu-->
     <script>
         function myFunction() {
@@ -43,11 +45,21 @@
         </button> -->
     </div>
     <!--Navigation Menu-->
+    <div class="container">
+        <div class="left-container">
         <ul class="content_nav" id="js-menu">
             <li><a href="#" class="nav_links">HOME</a></li>
             <li><a href="#" class="nav_links"> ABOUT US</a></li>
             <li><a href="#" class="nav_links">CONTACT US</a></li>
     </ul>
+        </div>
+    <div class=" left-container">
+      <ul class="left-class">
+        <li><input type="text" placeholder="search..."></li>
+        <li><a href="#" class="login-link"> LOG IN</a></li>
+      </ul>
+    </div>  
+    </div>
     <!-- Navigation bar for mobile -->
     <span class="hamburger_toggle" id="js-navbar-toggle">
         <div class="dropdown">
@@ -60,10 +72,25 @@
             <a href="#home">HOME</a>
             <a href="#about">ABOUT US</a>
             <a href="#contact">CONTACT US</a>
+            <A href="#login">LOG IN</A>
+           <input type="text" placeholder="search...">
           </div>
         </div>
     </span>
     </div>
+  <div class="introduction">
+    <div class="intro">
+      <br> <br>
+      <h1 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Good Food is <span style="color: teal;">Good Mood</span></h1>
+      <br> <br>
+      <p>Welcome to the home of delicious meals and snacks. We offer a wide variety of great cuisines.</p>
+      <br> <br>
+      <button class="btn" onclick="window.location.href='https://pexels.com/food;'">Make Your Order NOW!</button>
+    </div>
+    <br> <br>
+    <div class="intro"><img src="./Images/unsplash.jpg"</div>
+  </div>
+
 </body>
 
 </html>
