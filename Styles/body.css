@@ -1,0 +1,32 @@
+.introduction{
+    display: flex;
+}
+.intro{
+    flex: 50%;
+    padding:10px;
+    height: 300px;
+}
+
+img{
+    height: 400px;
+    width: 640px;
+}
+p{
+    font-size: 22px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.btn{
+    padding: 14px;
+    width: 300px;
+    background-color: teal;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-weight: bolder;
+    border:none;
+    border-radius: 5px;
+}
+.btn:hover{
+    background-color: #4c9e9e;
+    cursor: pointer;
+}
