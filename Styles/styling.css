@@ -1,0 +1,64 @@
+.banner{
+    display: flex;
+    padding: 10px;
+}
+
+img{
+    height: 400px;
+    width: 640px;
+}
+p{
+    font-size: 22px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.btn{
+    padding: 14px;
+    width: 300px;
+    background-color: teal;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-weight: bolder;
+    border:none;
+    border-radius: 5px;
+}
+.btn:hover{
+    background-color: #4c9e9e;
+    cursor: pointer;
+}
+.more{
+    padding: 12px;
+    width: 150px;
+    background-color: teal;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    border:none;
+    border-radius: 10px;
+}
+.more:hover{ background-color: #4c9e9e;
+    cursor: pointer;}
+.divider{
+    margin-left: 35%;
+    align-items: center;
+    width: 30%;
+    height: 4px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border-top: 1px solid teal;
+    border-bottom: 1px solid teal;
+}
+.wrapper{
+    text-align: left;
+    background-color: transparent;
+    
+}
+.menu_bar{
+    margin-left: 45%;
+    align-items: center;
+    font-family: Vladimir Script;
+    font-weight: bolder;
+    margin-bottom: -13px;
+    font-size: 40px;
+    line-height: 40px;
+}

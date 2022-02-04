@@ -115,4 +115,9 @@
     .btn{
         width: 280px;
     }
+}
+@media only screen and (max-width:425px){
+    .menu_bar{
+        margin-left: 35%;
+    }
     }
