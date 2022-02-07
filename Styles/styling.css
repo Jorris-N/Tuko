@@ -1,12 +1,13 @@
 .banner{
     display: flex;
     padding: 10px;
+    flex: 50%;
+    
+}
+.intro{
+    align-items: left;
 }
 
-img{
-    height: 400px;
-    width: 640px;
-}
 p{
     font-size: 22px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -36,7 +37,15 @@ p{
     border:none;
     border-radius: 10px;
 }
-.more:hover{ background-color: #4c9e9e;
+.res{
+    padding: 4px;
+    width: 100px;
+    background-color: teal;
+    color: white;
+    border-radius: 20px;
+    border: none;
+}
+.more:hover, .res:hover{ background-color: #4c9e9e;
     cursor: pointer;}
 .divider{
     margin-left: 35%;
@@ -53,12 +62,81 @@ p{
     background-color: transparent;
     
 }
-.menu_bar{
-    margin-left: 45%;
+h3{
+    color: teal;
+    text-align: center;
+     font-family: Vladimir Script;
+      font-weight: bolder;
+       font-size: 32px;
+}
+.special-menu{
+    display: flex;
+    flex-flow: row nowrap;
+	width: 100%;
+	max-width: 1500px;
+	justify-content: space-around;
+	align-items: center;
+}
+.special{
+    border-style:hidden ;
+    background-color: whitesmoke;
+    display: flex;
+    flex: 33.33%;
     align-items: center;
-    font-family: Vladimir Script;
-    font-weight: bolder;
-    margin-bottom: -13px;
-    font-size: 40px;
-    line-height: 40px;
+    justify-content: space-between;
+    padding: 20px;   
+}
+.menu-btn{
+    text-align: center;
+}
+.reservation{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: teal;
+    padding: 80px 40px;
+}
+.reservation:hover{
+    outline-width: 4px;
+    border: 4px;
+    cursor: pointer;
+}
+.location-info{
+    display: flex;
+    flex-flow: row nowrap;
+	width: 100%;
+	max-width: 1500px;
+	justify-content: space-around;
+	align-items: center;
+}
+ .opening-info{
+    display: flex;
+	flex-flow: row nowrap;
+	width: 300px;
+	z-index: 1;
+}
+.contact-info{
+    justify-content: flex-start;
+}
+.opening-info{
+    justify-content: flex-end;
+}
+table{
+    text-align: center;
+}
+td{
+    text-align: center;
+}
+.footer{
+    height: 20%;
+    color: teal;
+    background-color:  #2c292f;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.footer-left, .footer-center, .footer-right{
+    width: 33.33%;
 }
