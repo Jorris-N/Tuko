@@ -1,0 +1,37 @@
+.comm{
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.comm-info{
+    align-items: center;
+    text-align: center;  
+}
+.opening-img{
+    align-items: center;
+    text-align: center;
+}
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    padding: 20px;
+  }
+  input[type], textarea {
+      background-color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  input[type=submit]{
+      font-size: 14px;
+      font-weight: bolder;
+      background-color: #202020;
+      color: #BBA14F;
+  }

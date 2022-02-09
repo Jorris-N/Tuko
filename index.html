@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Food Credit</title>
+    <title>Tuko Eateries</title>
     <!--Styles-->
     <link rel="stylesheet" href="./Styles/navbar.css">
     <link rel="stylesheet" href="./Styles/style.css">
     <link rel="stylesheet" href="./Styles/styling.css">
     <link rel="stylesheet" href="./Styles/responsive.css">
+    
     <!--javascript function for drop down button for mobile menu-->
     <script>
         function myFunction() {
@@ -28,65 +29,31 @@
     }
   } 
     </script>
+    
     <!-- fontawesome CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
 
 </head>
 <body>
+  <header>
     <!--Navigation Bar-->
-    <div class="navbar">
-      
-        </span>
-    <!--LOGO-->
-    <div class="logo">
-        LOGO
-        <!-- <button class="navbar_toggle">
-            <i class="fas fa-bars"></i>
-        </button> -->
-    </div>
-    <!--Navigation Menu-->
-    <div class="container">
-        <div class="left-container">
-        <ul class="content_nav" id="js-menu">
-            <li><a href="#" class="nav_links">HOME</a></li>
-            <li><a href="#" class="nav_links"> ABOUT US</a></li>
-            <li><a href="#" class="nav_links">CONTACT US</a></li>
-    </ul>
-        </div>
-    <div class=" left-container">
-      <ul class="left-class">
-        <li><input type="text" placeholder="search..."></li>
-        <li><a href="#" class="login-link"> MENU </a></li>
-      </ul>
-    </div>  
-    </div>
-    <!-- Navigation bar for mobile -->
-    <span class="hamburger_toggle" id="js-navbar-toggle">
-        <div class="dropdown">
-        <button onclick="myFunction()" class="dropbtn">
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar3"></div>
-        </button>
-        <div id="myDropdown" class="dropdown-content">
-            <a href="#home">HOME</a>
-            <a href="#about">ABOUT US</a>
-            <a href="#contact">CONTACT US</a>
-            <A href="#login">MENU</A>
-           <input type="text" placeholder="search...">
-          </div>
-        </div>
-    </span>
-    </div>
+    <nav class="navbar" id="nav-placeholder">
+
+  </nav>
+  
+  <script src="main.js"></script>
+  </header>
+  
     <!-- Main Body -->
+  <main>
   <div class="banner">
     <div class="intro">
       <br> <br>
-      <h1 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Good Food is <span style="color: teal;">Good Mood</span></h1>
+      <h1 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Good Food is <span style="color: #BBA14F;">Good Mood</span></h1>
       <br> <br>
       <p>Welcome to the home of delicious meals and snacks. We offer a wide variety of great cuisines.</p>
       <br> <br>
-      <button class="btn" onclick="window.location.href='https://pexels.com/food;'">Make Your Order NOW!</button>
+      <button class="btn" onclick="window.location.href='./menu.html'">Make Your Order NOW!</button>
     </div>
     <br> <br>
     <div class="intro-img"><img src="./Images/unsplash.jpg" height="400px" width="640px"></div>
@@ -95,12 +62,12 @@
   <div class="wrapper">
   <div><h2 style="text-align: center; font-size: 30px;"> Did You Know? </h2></div>
   <div class="divider"></div>
-  <p style="font-size: 16px; display: inline-block; margin-left: 25%; margin-right: 25%; max-width: 1200px; text-align: center; line-height: 28PX;">
+  <p class="new" style="font-size: 16px; display: inline-block; margin-left: 25%; margin-right: 25%; max-width: 1200px; text-align: center; line-height: 28PX;">
     Fish is one of the most wholesome foods that man can eat. In fact, people have been eating fish throughout human history.
      These days, many cooks yearn to add fish to their collection, but the whole process of cleaning and filleting fresh fish
       is a little scary to them. The process of cleaning and filleting fresh fish is relatively simple once the steps are understood.
         To begin, you must clean your fresh fish properly in order to maintain it’s quality.<br> <br>
-        <button class="more" onclick="window.location.href='https://unsplash.com/hotels;'">More About Us</button></p> 
+        <button class="more" onclick="window.location.href='./about.html'">More About Us</button></p> 
   </div>
   <br> <br> <br> <br>   <br> <br> <br> <br>   <br> <br> 
   <div class="menu-container">
@@ -111,32 +78,32 @@
     <div class="divider"></div>
     <div class="special-menu">
        <ul class="special">
-         <li><img src="./Images/special1.jpg" height="360" width="360">
-          <p style="font-size: 14px; font-weight: bolder; text-align: center;"><br>ROASTED CHICKEN _______ <span style="color: teal;"> 450</span></p></li>
-         <li><img src="./Images/special2.jpg" height="360" width="360">
-          <p style="font-size: 14px; font-weight: bolder; text-align: center;"><br>PIZZA _______ <span style="color: teal;">Kshs. 850</span></p></li>
-         <li><img src="./Images/special3.jpg" height="360" width="360">
-          <p style="font-size: 14px; font-weight: bolder; text-align: center;"><br>LAMB CHOPS _______ <span style="color: teal">Kshs. 1200</span></p></li>
+         <li><img class="new" src="./Images/special1.jpg" height="360" width="360">
+          <p style="font-size: 14px; font-weight: bolder; text-align: center;"><br>ROASTED CHICKEN _______ <span style="color: #BBA14F;"> 450</span></p></li><br>
+         <li><img class="new" src="./Images/special2.jpg" height="360" width="360">
+          <p style="font-size: 14px; font-weight: bolder; text-align: center;"><br>PIZZA _______ <span style="color: #BBA14F;">Kshs. 850</span></p></li><br>
+         <li><img class="new" src="./Images/special3.jpg" height="360" width="360">
+          <p style="font-size: 14px; font-weight: bolder; text-align: center;"><br>LAMB CHOPS _______ <span style="color: #BBA14F;">Kshs. 1200</span></p></li><br>
        </ul>
       </div>
       <br>
-      <div class="menu-btn"><button class="more" onclick="window.location.href='https://logo.com/#menu';">View Full Menu</button>
+      <div class="menu-btn"><button class="more" onclick="window.location.href='./menu.html';">View Full Menu</button>
       <br><br><br>
-      <button class="reservation" onclick="window.location.href='://resevation';"><h2 style="color: white; font-size: 32px; font-family: Lucida Calligraphy;"> RESERVE A TABLE</h2></button>
+      <button class="reservation" onclick="window.location.href='./reservation.html';"><h2 style="color: #BBA14F; font-size: 32px; font-family: Lucida Calligraphy;"> RESERVE A TABLE</h2></button>
       </div>
     <br>
     <div class="location-info">
       <div class="contact-info">
         <img src="./Images/loc-icon.png"><br><br>
         <h3 style="font-family: Arial, Helvetica, sans-serif; font-size: 16px; text-align: left;">LOCATE US</h3><br>
-        <p style="color: #777; font-size: 12px;">Food Credit, Power Street, New Generation Mall, Voi, TTC</p><br>
+        <p style="color: #777; font-size: 12px;">Tuko Eateries, Power Street, New Generation Mall, Voi, TTC</p><br>
         <p style="color: #777; font-size: 12px;">Email: info@foodcredit.co.ke</p><br>
         <p style="color: #777; font-size: 12px;">(+254) 723 942 143</p>
       </div>
       <div class="opening-info">
-        <table style="background-color: white; color: teal; width: 100%;" >
+        <table style="background-color: #BBA14F; color: #202020; width: 100%;" >
           <tr style="height: 10px;">
-            <th style="font-family:  Lucida Calligraphy; text-align: center; color: teal; font-size: 14px;" colspan="2">Welcome</th>
+            <th style="font-family:  Lucida Calligraphy; text-align: center; color: #202020; font-size: 14px;" colspan="2">Welcome</th>
           </tr>
           <tr>
             <th colspan="2">OPENING HOURS</th>
@@ -175,39 +142,42 @@
     <br>
     <hr>
     <br>
-    <div class="footer">
+  </div>
+  </main>
+    <footer id="footer">
       
 			<div class="footer-left">
-        <h4><i class="fa fa-cutlery" aria-hidden="true" style="font-size: 32px; color: teal;"></i> Food Credit Eateries</h4>
-       <br>
-        <p style="font-size: 12px; color: te;">
-          <a href="#">Home</a>
+        <img src="./Images/logo.png" width="240" height="50">
+       <br><br>
+        <p style="font-size: 12px;">
+          <a href="/index.html">Home</a>
           |
           <a href="./about.html">About Us</a>
           |
-          <a href="#">Contact Us</a>
+          <a href="./contact.html">Contact Us</a>
         </p>
         <br>
-        <p style="font-size: 12px;">&copy; 2022 Food Credit Eateries.</p>
+        <p style="font-size: 12px;  color: #BBA14F;">&copy; 2022 Tuko Eateries.</p>
     </div>
     <div class="footer-center">
-      <p style="font-size:12px;"><i class="fa fa-map-marker" aria-hidden="true" style="font-size: 24px;"></i> Food Credit, Power Street, New Generation Mall. <br> <b>Voi, TTC, Kenya.</b></p><br>
-      <p style="font-size: 12px;"><i class="fa fa-phone" aria-hidden="true" style="font-size: 24px;"></i> (+254)723 942 143</p><br>
-      <p style="font-size:12px;"><i class="fa fa-envelope-o" aria-hidden="true"style="font-size:24px;"></i><a href="mailto:info@eateries.foodcredit"> info@eateries.foodcredit</a></p>
+      <p style="font-size:12px; color: #BBA14F;"><i class="fa fa-map-marker" aria-hidden="true" style="font-size: 24px;  color: #BBA14F;"></i> Tuko Eateries, Power Street, New Generation Mall. <br> <b>Voi, TTC, Kenya.</b></p><br>
+      <p style="font-size: 12px;  color: #BBA14F;"><i class="fa fa-phone" aria-hidden="true" style="font-size: 24px;  color: #BBA14F;"></i> (+254)723 942 143</p><br>
+      <p style="font-size:12px;  color: #BBA14F;"><i class="fa fa-envelope-o" aria-hidden="true"style="font-size:24px; color: #BBA14F;"></i><a href="mailto:info@eateries.tuko"> info@eateries.tuko</a></p>
       </div>
     <div class="footer-right">
-     <h4><i class="fa fa-info-circle" aria-hidden="true" style="font-size: 24px;"></i> About the Restaurant.</h4><br>
-     <p style="font-size: 12px;">We offer a wide variety of great cuisines <br> From all around Kenya and the world at large.</p><br>
+     <h4 style="color: #BBA14F;"><i class="fa fa-info-circle" aria-hidden="true" style="font-size: 24px; color:#BBA14F;"></i> About the Restaurant.</h4><br>
+     <p style="font-size: 12px; color: #BBA14F;">We offer a wide variety of great cuisines <br> From all around Kenya and the world at large.</p><br>
      <br>
-     <h4>Follow us on Social Media</h4>
-     <p style="font-size: 24px; color: teal;">
+     <h4 style="color: #BBA14F;">Follow us on Social Media</h4>
+     <p style="font-size: 24px; color: #BBA14F">
       <a href="#"><i class="fa fa-facebook"></i></a>&nbsp;
       <a href="#"><i class="fa fa-twitter"></i></a>&nbsp;
       <a href="#"><i class="fa fa-instagram"></i></a>&nbsp;
       <a href="#"><i class="fa fa-linkedin"></i></a>&nbsp;
       <a href="#"><i class="fa fa-youtube"></i></a></p>
       </div>
-    </div>
+    </footer>
+    
 
     </div>
   </div>
