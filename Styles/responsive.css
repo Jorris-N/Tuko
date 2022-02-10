@@ -1,16 +1,28 @@
 /*APPLYING MEDIA QUERIS*/
 @media only screen and (max-width:992px){
+    body{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        min-height: 100%;
+        overflow-x: hidden;
+        min-width: 100vw;
+    }
     .navbar{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        width: 100vw;
+        width: 100%;
         padding-top: 2%;
         padding-bottom: 2%;
-        background-color: teal;
+        background-color: #202020;
         font-size: 20px;
     }
+    .intro-img{
+        display: none;
+    }
     .content_nav{
+        display: none;
+    }
+    .left-class{
         display: none;
     }
     .show_nav{
@@ -48,7 +60,7 @@
     .dropbtn {
         margin-top: -18%;
         justify-content: center;
-        color: white;
+        color: #BBA14F;
         padding: 12px;
         background: transparent;
         font-size: 12px;
@@ -69,7 +81,7 @@
       .dropdown-content {
         display: none;
         position: absolute;
-        background-color: teal;
+        background-color: #202020;
         min-width: 160px;
         overflow: auto;
         right: 0;
@@ -78,7 +90,7 @@
       }
       
       .dropdown-content a {
-        color: white;
+        color: #BBA14F;
         padding: 12px 16px;
         text-decoration: none;
         display: block;
@@ -94,7 +106,7 @@
     .bar1, .bar2, .bar3 {
         width: 24px;
         height: 2px;
-        background-color: white;
+        background-color: #BBA14F;
         margin: 6px 0;
     }
     .login-link{
@@ -104,7 +116,8 @@
         display: none;
     }
     img{
-        display:none;
+        display:flex;
+        flex-direction: column;
     }
     .introduction .intro h1{
         font-size: 1.8rem;
@@ -115,16 +128,60 @@
     .btn{
         width: 280px;
     }
+    .special, .items, .menu-intro{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .container img, .chef img{
+        display: flex;
+        flex-direction: column;
+    }
+    .chef-word p{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .menu-intro h1{
+        font-size: 24px;
+    }
+    .menu-intro p{
+        display: none;
+    }
+    .center{
+        color: white;
+        position: absolute;
+        top: 35%;
+        bottom: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    
 }
 @media (max-height:800px){
 	footer { position: static; }
 }
 @media(max-width:760px){
-    .footer{
-    display: block;
+    #footer{
+    display: flex;
+    flex-direction: column;
     align-items: center;
 	width: 100%;
 	margin-bottom: 40px;
 	text-align: center;
     }
-}
+    .small, .ImageContainer, .chef, .chef-word{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 100px;
+    }
+    .location-info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    }
