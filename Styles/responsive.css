@@ -1,5 +1,11 @@
 /*APPLYING MEDIA QUERIS*/
 @media only screen and (max-width:992px){
+    body{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        min-height: 100%;
+        overflow-x: hidden;
+        min-width: 100vw;
+    }
     .navbar{
         display: flex;
         flex-direction: column;
@@ -130,6 +136,11 @@
     .container img, .chef img{
         display: flex;
         flex-direction: column;
+    }
+    .chef-word p{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
     }
     
 }
