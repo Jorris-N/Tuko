@@ -9,15 +9,15 @@
     <div class="container">
         <div class="left-container">
         <ul class="content_nav" id="js-menu">
-            <li><a href="./index.html" class="nav_links">HOME</a></li>
-            <li><a href="./about.html" class="nav_links"> ABOUT US</a></li>
-            <li><a href="./contact.html" class="nav_links">CONTACT US</a></li>
+            <li><a href="./index.html">HOME</a></li>
+            <li><a href="./about.html"> ABOUT US</a></li>
+            <li><a href="./contact.html">CONTACT US</a></li>
     </ul>
         </div>
     <div class=" right-container">
       <ul class="left-class">
-        <li><a href="./menu.html" class="login-link"> MENU </a></li>
-        <li><a href="./cart.html" class="login-link"><i class="fa fa-shopping-cart" aria-hidden="true" style="font-size: 20px;"></i>&nbsp; CART</a></li>
+        <li><a href="./menu.html"> MENU </a></li>
+        <li><a href="./cart.html"><i class="fa fa-shopping-cart" aria-hidden="true" style="font-size: 20px;"></i>&nbsp; CART</a></li>
       </ul>
     </div>  
     </div>
@@ -31,7 +31,7 @@
         </button>
         <div id="myDropdown" class="dropdown-content">
             <a href="./index.html">HOME</a>
-            <a href="./about.html">ABOUT US</a>
+            <a href="./about.html">ABOUT</a>
             <a href="./contact.html">CONTACT US</a>
             <A href="./menu.html">MENU</A>
             <a href="./cart.html" class="login-link"><i class="fa fa-shopping-cart" aria-hidden="true"></i>&nbsp; CART</a>
@@ -65,6 +65,7 @@ a{
 .navbar_toggle{
     display: none;
 }
+
 /*LOGO*/
 
 /*NAVBAR CONTENT*/
@@ -101,17 +102,6 @@ li{
 	align-items: center;
 }
 
-.login-link{
-    padding: 20px 14px;
-    color: #BBA14F;
-    border-radius: 5px;
-}
-
-.navbar input[type=text]{
-    padding: 4px;
-    font-size: 14px;
-
-}
 .content_nav{
     display: flex;
     width: 50%;
@@ -120,17 +110,22 @@ li{
     justify-content: space-between;
     font-size: 16px;
 }
-.content_nav li:hover, .login-link:hover{
+.content_nav li:hover, .left-class li:hover{
    background-color:#e1c564;
    border-radius: 5px;
 }
-.content_nav li{
-    padding: 14px 14px;
+.content_nav li, .left-class li{
+    padding: 14px;
     display: inline;
     color: #BBA14F;
 }
 .content_nav li a{
     color: #BBA14F;
+}
+ul li a.active{
+    background: #e1c564;
+    padding: 14px;
+    border-radius: 5px;
 }
 .navbar .hamburger_toggle {
     display: none;
