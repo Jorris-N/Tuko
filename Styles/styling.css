@@ -127,6 +127,33 @@ h3{
 .opening-info{
     justify-content: flex-end;
 }
+.four{
+    text-align: center;
+    font-size: 22px;
+    color: #202020;
+}
+.price{
+    color: #BBA14F;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.order{
+    display: block;
+    text-align: center;
+    width: 100px;
+    padding: 6px;
+    border-radius: 8px;
+    border: none;
+    background-color: #BBA14F;
+    color: #202020;
+    margin: 0 auto;
+}
+.order:hover{
+    cursor: pointer;
+    background-color: #e1c564;
+}
 table{
     text-align: center;
 }
