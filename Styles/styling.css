@@ -115,6 +115,12 @@ h3{
 	justify-content: space-around;
 	align-items: center;
 }
+input[type=number]{
+    margin-bottom: 2%;
+    width: 100%;
+    text-align: center;
+    padding-top: 5px;
+}
  .opening-info{
     display: flex;
 	flex-flow: row nowrap;
