@@ -16,6 +16,9 @@
         background-color: #202020;
         font-size: 20px;
     }
+    .left-container ul, .right-container ul{
+        display: none;
+    }
     .intro-img{
         display: none;
     }
