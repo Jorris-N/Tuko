@@ -68,7 +68,7 @@
   .c-empty, .c-checkout { width: 100%; }
   
   /* (D) RESPONSIVE */
-  @media screen and (max-width: 640px) {
+  @media only screen and (max-width: 640px) {
     #cart-products {
       grid-template-columns: 100%;
     }
