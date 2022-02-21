@@ -19,9 +19,9 @@
     padding: 20px;
   }
   fieldset{
-      width: 50%;
+      width: 100%;
       align-items: center;
-      margin-left: 25%;
+      border-radius: 10px;
   }
   input[type], textarea {
       background-color: whitesmoke;
