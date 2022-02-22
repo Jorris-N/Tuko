@@ -41,22 +41,26 @@ window.onclick = function(event) {
    
     </nav>
     <script src="main.js"></script>
+    <div class="reservation">
+      <div class="center"><h1>BOOK A TABLE</h1></div>
+    </div>
     </header>
     
     <!-- Main Body -->
     <main>
-      <div class="resevation">
-        <img src="./Images/reserved.jpg" width="1366" height="300">
-        <div class="center"><h1>BOOK A TABLE</h1></div>
-      </div>
+    
       <div class="resevation-form">
         <form name="Reservation" method="POST" data-netlify="true">
           <fieldset>
+            <label for="full names">Name</label>
             <input type="text" name="full names" placeholder="Enter your full name..."/>
-            <lnput type="email" name="email" placeholder="Email Address..."/>
+            <label for="phone number">Phone Number</label>
             <input type="text" name="phone" placeholder="Mobile No. ..."/>
+            <label for="date">Pick a Date</label>
             <input type="date" name="date" placeholder="Date..."/>
+            <label for="time">Select your Preffered Time</label>
             <input type="time" name="time" placeholder="Time".../>
+            <label for="people">Select the number of people</label><br>
             <select name="people" id="people">
                 <option value="1 people">1 Person</option>
                 <option value="2 people">2 People</option>
