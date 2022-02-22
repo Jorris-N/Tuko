@@ -1,13 +1,12 @@
 .ImageContainer{
-    display: flex;
-    flex-direction: row;
+    background-image: url(../Images/interior.jpg);
+    height: 200px;
 }
-.center{font-size: xx-large;
-    color: white;
-    position: absolute;
-    top: 35%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.center{
+    padding-top: 50px;
+	color: white;
+	font-size: 34px;
+	text-align: center;
 }
 .infomation{
 

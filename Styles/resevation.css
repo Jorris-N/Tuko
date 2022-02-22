@@ -1,10 +1,13 @@
+.reservation{
+    background-image: url(../Images/reserve.jpg);
+    height: 200px;
+    margin-bottom: 2%;
+}
 .center{
-    font-size: xx-large;
-    color: white;
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    padding-top: 50px;
+	color: white;
+	font-size: 34px;
+	text-align: center;
 }
 .resevation-form{
     display: flex;
@@ -21,18 +24,20 @@ fieldset{
 input[type], textarea {
     background-color: whitesmoke;
   font-family: Arial, Helvetica, sans-serif;
-  width: 50%;
+  width: 100%;
   padding: 12px;
+  border: transparent;
   border-radius: 5px;
   box-sizing: border-box;
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical;
 }
+
 select{
     background-color: whitesmoke;
     font-family: Arial, Helvetica, sans-serif;
-    width: 50%;
+    width: 40%;
     padding: 12px;
     border-radius: 5px;
     box-sizing: border-box;
@@ -42,6 +47,10 @@ select{
 
 }
 input[type=submit]{
+    font-weight: bolder;
+    font-size: large;
     background-color: #202020;
     color: #BBA14F;
+    width: 50%;
+    cursor: pointer;
 }
