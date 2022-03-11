@@ -62,13 +62,13 @@ window.onclick = function(event) {
         <form name="Contact-us" method="POST" data-netlify="true">
           <fieldset>
           <label for="full names">Full Name</label>
-          <input type="text" name="full names" placeholder="Enter your Full Name..."/>
+          <input type="text" name="full names" placeholder="Enter your Full Name..." required/>
           <label for="phone number">Phone No.</label>
           <input type="text" name="phone number" placeholder="Enter your current Phone No. ..."/>
           <label for="email"> Email</label>
-          <input type="email" name="email" placeholder="Enter your current E-Mail address..."/>
+          <input type="email" name="email" placeholder="Enter your current E-Mail address..." required/>
           <label for="message">Message</label>
-          <textarea name="message" placeholder="Type your message here..." rows="10" cols="50"></textarea>
+          <textarea name="message" placeholder="Type your message here..." rows="10" cols="50" required></textarea>
           <input type="submit" value="SUBMIT">
           </fieldset>
         </form>
